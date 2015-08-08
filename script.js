@@ -10,8 +10,12 @@ $(document).ready(function() {
 	
 	$("th").each(function () {
 		for (var i = 0; i < 16; i++) {
-			$(this).append("<div></div>");
+			$(this).append("<div class='penis'></div>");
 		}
+	});
+	
+	$(".penis").mouseenter(function() {
+		$(this).css("background-color","blue");
 	});
 });
 

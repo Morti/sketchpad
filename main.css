@@ -1,11 +1,18 @@
-div {
+.penis {
     display: inline-block;
 	height: 40px;
     width: 40px;
 	margin: 0;
 	border: 0;
 	padding: 0;
-    background-color: black;
+    background-color: white;
+}
+
+.maindiv {
+	border-radius: 1px;
+    background: #8AC007;
+    padding: 1px;
+	width: 640px;
 }
 
 th {
