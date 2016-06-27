@@ -22,14 +22,14 @@ $(document).ready(function() {
 	
 		$("th").each(function () {
 			for (var i = 0; i < size; i++) {
-				$(this).append("<div class='penis'></div>");
+				$(this).append("<div class='magic'></div>");
 			}
 		});
 		
-		$(".penis").css("width", newsize);
-		$(".penis").css("height", newsize);
+		$(".magic").css("width", newsize);
+		$(".magic").css("height", newsize);
 		
-		$(".penis").mouseenter(function() {
+		$(".magic").mouseenter(function() {
 			$(this).css("background-color",getRandomColor());
 		});
 	}
